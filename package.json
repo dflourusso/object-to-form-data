@@ -1,6 +1,6 @@
 {
   "name": "object-to-form-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angularjs Factory to convert a JSON object into a FormData object",
   "main": "dist/object-to-form-data.js",
   "scripts": {
