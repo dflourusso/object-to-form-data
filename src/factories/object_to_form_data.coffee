@@ -13,7 +13,7 @@ class ObjectToFormData extends Factory
             formKey = "#{namespace}[#{property}]"
           else
             formKey = property
-          if gooDeep obj[property]
+          if goDeep obj[property]
             objectToFormData obj[property], fd, formKey
           else
             fd.append formKey, obj[property]
